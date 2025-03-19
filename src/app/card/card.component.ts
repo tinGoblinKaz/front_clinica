@@ -10,6 +10,7 @@ export class CardComponent {
   medico ={
     nome: "Dr. Matheus Marques",
     especialidade:"Cardiologia",
-
+    imagem:"../../assets/user-1.jpg",
+    imagem2:"https://cpv.ifsp.edu.br/images/phocagallery/galeria2/thumbs/phoca_thumb_l_image03_grd.png"
   }
 }
