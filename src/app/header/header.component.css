@@ -1,10 +1,27 @@
+.header{
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.3);
+}
 .container{
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 20px;
-
+  padding: 20px 0px;
 }
-.header{
-  padding: 20px 0;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+.header-cotainer{
+  display: flex;
+  align-items: center; /*Alinhamento vertical ao centro */
+  justify-content: space-between;/*Espaçamento entre itens na horizontal*/
+  padding: 40px 0;
+}
+
+.btn-link{
+  text-decoration: none;
+  padding: 20px;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #000;
+  transition: color 0.3s;
+}
+.btn-link:hover{
+  color: #2997ff;
+
 }
